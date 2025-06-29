@@ -6,3 +6,11 @@ print("1D Array:", a)
 # 2D array
 b = np.array([[1, 2], [3, 4]])
 print("2D Array:\n", b)
+# Zeros, Ones, and Random
+zeros = np.zeros((2, 3))
+ones = np.ones((3, 3))
+randoms = np.random.rand(2, 2)
+
+print("Zeros:\n", zeros)
+print("Ones:\n", ones)
+print("Randoms:\n", randoms)
